@@ -26,5 +26,15 @@ namespace WindowsFormsApp1
         {
 
         }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void employees_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
