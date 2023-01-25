@@ -36,5 +36,10 @@ namespace WindowsFormsApp1
         {
 
         }
+
+        private void gunaDateTimePicker1_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
