@@ -71,6 +71,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="departments.resx">
+      <DependentUpon>departments.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="employees.resx">
       <DependentUpon>employees.cs</DependentUpon>
     </EmbeddedResource>
