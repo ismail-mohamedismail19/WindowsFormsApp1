@@ -52,6 +52,7 @@
             this.gunaDataGridView1 = new Guna.UI.WinForms.GunaDataGridView();
             this.gunaDateTimePicker1 = new Guna.UI.WinForms.GunaDateTimePicker();
             this.gunaDateTimePicker2 = new Guna.UI.WinForms.GunaDateTimePicker();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gunaDataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -275,6 +276,7 @@
             // 
             // gunaDateTimePicker1
             // 
+            this.gunaDateTimePicker1.BackColor = System.Drawing.Color.Teal;
             this.gunaDateTimePicker1.BaseColor = System.Drawing.Color.White;
             this.gunaDateTimePicker1.BorderColor = System.Drawing.Color.Silver;
             this.gunaDateTimePicker1.CustomFormat = null;
@@ -298,6 +300,7 @@
             // 
             // gunaDateTimePicker2
             // 
+            this.gunaDateTimePicker2.BackColor = System.Drawing.Color.Teal;
             this.gunaDateTimePicker2.BaseColor = System.Drawing.Color.White;
             this.gunaDateTimePicker2.BorderColor = System.Drawing.Color.Silver;
             this.gunaDateTimePicker2.CustomFormat = null;
@@ -318,12 +321,25 @@
             this.gunaDateTimePicker2.Text = "Wednesday, January 25, 2023";
             this.gunaDateTimePicker2.Value = new System.DateTime(2023, 1, 25, 20, 6, 32, 729);
             // 
+            // button1
+            // 
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.Teal;
+            this.button1.Location = new System.Drawing.Point(181, 713);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(159, 29);
+            this.button1.TabIndex = 29;
+            this.button1.Text = "login";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // employees
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1253, 844);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.gunaDateTimePicker2);
             this.Controls.Add(this.gunaDateTimePicker1);
             this.Controls.Add(this.gunaDataGridView1);
@@ -377,5 +393,6 @@
         private Guna.UI.WinForms.GunaDataGridView gunaDataGridView1;
         private Guna.UI.WinForms.GunaDateTimePicker gunaDateTimePicker1;
         private Guna.UI.WinForms.GunaDateTimePicker gunaDateTimePicker2;
+        private System.Windows.Forms.Button button1;
     }
 }
