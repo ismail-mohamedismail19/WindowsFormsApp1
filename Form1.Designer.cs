@@ -123,6 +123,7 @@
             this.LoginBtn.TabIndex = 7;
             this.LoginBtn.Text = "login";
             this.LoginBtn.UseVisualStyleBackColor = true;
+            this.LoginBtn.Click += new System.EventHandler(this.LoginBtn_Click);
             // 
             // ResetLbl
             // 
@@ -134,6 +135,7 @@
             this.ResetLbl.Size = new System.Drawing.Size(55, 25);
             this.ResetLbl.TabIndex = 8;
             this.ResetLbl.Text = "reset";
+            this.ResetLbl.Click += new System.EventHandler(this.ResetLbl_Click);
             // 
             // pictureBox2
             // 
@@ -166,6 +168,7 @@
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);

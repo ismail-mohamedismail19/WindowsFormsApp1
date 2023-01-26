@@ -2,9 +2,9 @@
 
 namespace WindowsFormsApp1
 {
-    internal class Login
+    internal class Employees
     {
-        public Login()
+        public Employees()
         {
         }
 

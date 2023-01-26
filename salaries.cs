@@ -123,7 +123,7 @@ namespace WindowsFormsApp1
 
         private void LogoutLbl_Click(object sender, EventArgs e)
         {
-            Login Obj = new Login();
+            Employees Obj = new Employees();
             Obj.Show();
             this.Hide();
         }
