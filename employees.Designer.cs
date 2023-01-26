@@ -46,7 +46,7 @@
             this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.GenCb = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.DepCb = new System.Windows.Forms.ComboBox();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.backgroundWorker2 = new System.ComponentModel.BackgroundWorker();
             this.gunaDataGridView1 = new Guna.UI.WinForms.GunaDataGridView();
@@ -221,13 +221,13 @@
             this.GenCb.Size = new System.Drawing.Size(240, 33);
             this.GenCb.TabIndex = 24;
             // 
-            // comboBox2
+            // DepCb
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(145, 445);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(240, 33);
-            this.comboBox2.TabIndex = 25;
+            this.DepCb.FormattingEnabled = true;
+            this.DepCb.Location = new System.Drawing.Point(145, 445);
+            this.DepCb.Name = "DepCb";
+            this.DepCb.Size = new System.Drawing.Size(240, 33);
+            this.DepCb.TabIndex = 25;
             // 
             // gunaDataGridView1
             // 
@@ -466,7 +466,7 @@
             this.Controls.Add(this.gunaDateTimePicker2);
             this.Controls.Add(this.gunaDateTimePicker1);
             this.Controls.Add(this.gunaDataGridView1);
-            this.Controls.Add(this.comboBox2);
+            this.Controls.Add(this.DepCb);
             this.Controls.Add(this.GenCb);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.flowLayoutPanel2);
@@ -514,7 +514,7 @@
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel2;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.ComboBox GenCb;
-        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.ComboBox DepCb;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private System.ComponentModel.BackgroundWorker backgroundWorker2;
         private Guna.UI.WinForms.GunaDataGridView gunaDataGridView1;
