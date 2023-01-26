@@ -45,7 +45,7 @@
             this.label8 = new System.Windows.Forms.Label();
             this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.GenCb = new System.Windows.Forms.ComboBox();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.backgroundWorker2 = new System.ComponentModel.BackgroundWorker();
@@ -210,16 +210,16 @@
             this.pictureBox1.TabIndex = 23;
             this.pictureBox1.TabStop = false;
             // 
-            // comboBox1
+            // GenCb
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.GenCb.FormattingEnabled = true;
+            this.GenCb.Items.AddRange(new object[] {
             "Male",
             "Female"});
-            this.comboBox1.Location = new System.Drawing.Point(145, 372);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(240, 33);
-            this.comboBox1.TabIndex = 24;
+            this.GenCb.Location = new System.Drawing.Point(145, 372);
+            this.GenCb.Name = "GenCb";
+            this.GenCb.Size = new System.Drawing.Size(240, 33);
+            this.GenCb.TabIndex = 24;
             // 
             // comboBox2
             // 
@@ -467,7 +467,7 @@
             this.Controls.Add(this.gunaDateTimePicker1);
             this.Controls.Add(this.gunaDataGridView1);
             this.Controls.Add(this.comboBox2);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.GenCb);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.flowLayoutPanel2);
             this.Controls.Add(this.label7);
@@ -513,7 +513,7 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel2;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox GenCb;
         private System.Windows.Forms.ComboBox comboBox2;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private System.ComponentModel.BackgroundWorker backgroundWorker2;
