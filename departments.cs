@@ -1,4 +1,5 @@
 ﻿using System;
+using System.CodeDom;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -74,6 +75,19 @@ namespace WindowsFormsApp1
             catch (Exception Ex)
             {
                 MessageBox.Show(Ex.Message);
+            }
+        }
+        int Key = 0;
+        private void DepList_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            DepNameTb.Text = DepList.SelectedRows[0].Cells[1].Value.ToString();
+            if(DepNameTb.Text=="")
+            {
+                Key = 0;
+            }
+            else
+            {
+                Key = Convert.ToInt32(DepList.SelectedRows[0].Cells[0].Value.ToString());
             }
         }
     }
