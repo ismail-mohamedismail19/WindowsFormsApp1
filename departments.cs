@@ -90,5 +90,30 @@ namespace WindowsFormsApp1
                 Key = Convert.ToInt32(DepList.SelectedRows[0].Cells[0].Value.ToString());
             }
         }
+
+        private void EditBtn_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (DepNameTb.Text == "")
+                {
+                    MessageBox.Show("Missing Data!!!");
+                }
+                else
+                {
+                    string Dep = DepNameTb.Text;
+                    string Query = "Update DepartmentTb1 set DepName = '{0}' where Depid = {1}";
+                    Query = string.Format(Query, DepNameTb.Text,Key);
+                    Con.SetData(Query);
+                    ShowDepartments();
+                    MessageBox.Show("Depatment Updated!!!");
+                    DepNameTb.Text = "";
+                }
+            }
+            catch (Exception Ex)
+            {
+                MessageBox.Show(Ex.Message);
+            }
+        }
     }
 }
