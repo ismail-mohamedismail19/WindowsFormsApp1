@@ -39,6 +39,8 @@
             this.LoginBtn = new System.Windows.Forms.Button();
             this.ResetLbl = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
@@ -46,6 +48,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Teal;
+            this.panel1.Controls.Add(this.label4);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
@@ -87,6 +90,7 @@
             this.PasswordTb.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PasswordTb.Location = new System.Drawing.Point(422, 306);
             this.PasswordTb.Name = "PasswordTb";
+            this.PasswordTb.PasswordChar = '*';
             this.PasswordTb.Size = new System.Drawing.Size(240, 30);
             this.PasswordTb.TabIndex = 4;
             // 
@@ -147,6 +151,15 @@
             this.pictureBox2.TabIndex = 9;
             this.pictureBox2.TabStop = false;
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(114, 169);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(15, 17);
+            this.label4.TabIndex = 10;
+            this.label4.Text = "s";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
@@ -169,6 +182,8 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
@@ -188,6 +203,7 @@
         private System.Windows.Forms.Button LoginBtn;
         private System.Windows.Forms.Label ResetLbl;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Label label4;
     }
 }
 

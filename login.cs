@@ -35,7 +35,7 @@ namespace WindowsFormsApp1
 
         private void LoginBtn_Click(object sender, EventArgs e)
         {
-            if (UNameTb.Text = "" || PasswordTb.Text == "")
+            if (UNameTb.Text =="" || PasswordTb.Text == "")
             {
                 MessageBox.Show("Missing Data!!!");
             }
@@ -48,6 +48,8 @@ namespace WindowsFormsApp1
             else
             {
                 MessageBox.Show("Wrong UserName Or Password!!!");
+                UNameTb.Text = "";
+                PasswordTb.Text = "";
             }
         }
     }
