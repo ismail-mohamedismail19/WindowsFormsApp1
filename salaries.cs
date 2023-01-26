@@ -12,12 +12,46 @@ namespace WindowsFormsApp1
 {
     public partial class salaries : Form
     {
+        Functions Con;
         public salaries()
         {
             InitializeComponent();
+            Con = new Functions();
+            ShowSalaries();
+            GetEmployees();
+        }
+        private void GetEmployees()
+        {
+            string Query = "Select * from EmployeeTb1";
+            EmpCb.DisplayMember = Con.GetData(Query).Columns["EmpName"].ToString();
+            EmpCb.ValueMember = Con.GetData(Query).Columns["EmpId"].ToString();
+            EmpCb.DataSource = Con.GetData(Query);
+
+        }
+        private void ShowSalaries()
+        {
+            throw new NotImplementedException();
         }
 
+        private void ShowSalaies()
+        {
+            try
+            {
+                string Query = "Select * From SalaryTb1";
+                SalaryList.DataSource = Con.GetData(Query);
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+        }
         private void salaries_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void SalaryList_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }
