@@ -36,7 +36,7 @@
             this.PasswordTb = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.LoginBtn = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -112,17 +112,17 @@
             this.label3.TabIndex = 6;
             this.label3.Text = "password";
             // 
-            // button1
+            // LoginBtn
             // 
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.Teal;
-            this.button1.Location = new System.Drawing.Point(463, 362);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(159, 29);
-            this.button1.TabIndex = 7;
-            this.button1.Text = "login";
-            this.button1.UseVisualStyleBackColor = true;
+            this.LoginBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.LoginBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LoginBtn.ForeColor = System.Drawing.Color.Teal;
+            this.LoginBtn.Location = new System.Drawing.Point(463, 362);
+            this.LoginBtn.Name = "LoginBtn";
+            this.LoginBtn.Size = new System.Drawing.Size(159, 29);
+            this.LoginBtn.TabIndex = 7;
+            this.LoginBtn.Text = "login";
+            this.LoginBtn.UseVisualStyleBackColor = true;
             // 
             // label4
             // 
@@ -153,7 +153,7 @@
             this.ClientSize = new System.Drawing.Size(823, 545);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.LoginBtn);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.PasswordTb);
@@ -182,7 +182,7 @@
         private System.Windows.Forms.TextBox PasswordTb;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button LoginBtn;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.PictureBox pictureBox2;
     }
