@@ -103,5 +103,10 @@ namespace WindowsFormsApp1
         {
             GetSalary();
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
