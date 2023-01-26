@@ -51,7 +51,7 @@
             this.backgroundWorker2 = new System.ComponentModel.BackgroundWorker();
             this.gunaDataGridView1 = new Guna.UI.WinForms.GunaDataGridView();
             this.DOBTb = new Guna.UI.WinForms.GunaDateTimePicker();
-            this.gunaDateTimePicker2 = new Guna.UI.WinForms.GunaDateTimePicker();
+            this.JData = new Guna.UI.WinForms.GunaDateTimePicker();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.label9 = new System.Windows.Forms.Label();
@@ -312,28 +312,28 @@
             this.DOBTb.Value = new System.DateTime(2023, 1, 25, 20, 6, 32, 729);
             this.DOBTb.ValueChanged += new System.EventHandler(this.gunaDateTimePicker1_ValueChanged);
             // 
-            // gunaDateTimePicker2
+            // JData
             // 
-            this.gunaDateTimePicker2.BackColor = System.Drawing.Color.Teal;
-            this.gunaDateTimePicker2.BaseColor = System.Drawing.Color.White;
-            this.gunaDateTimePicker2.BorderColor = System.Drawing.Color.Silver;
-            this.gunaDateTimePicker2.CustomFormat = null;
-            this.gunaDateTimePicker2.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right;
-            this.gunaDateTimePicker2.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.gunaDateTimePicker2.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gunaDateTimePicker2.ForeColor = System.Drawing.Color.Black;
-            this.gunaDateTimePicker2.Location = new System.Drawing.Point(145, 603);
-            this.gunaDateTimePicker2.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
-            this.gunaDateTimePicker2.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
-            this.gunaDateTimePicker2.Name = "gunaDateTimePicker2";
-            this.gunaDateTimePicker2.OnHoverBaseColor = System.Drawing.Color.White;
-            this.gunaDateTimePicker2.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.gunaDateTimePicker2.OnHoverForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.gunaDateTimePicker2.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaDateTimePicker2.Size = new System.Drawing.Size(240, 41);
-            this.gunaDateTimePicker2.TabIndex = 28;
-            this.gunaDateTimePicker2.Text = "Wednesday, January 25, 2023";
-            this.gunaDateTimePicker2.Value = new System.DateTime(2023, 1, 25, 20, 6, 32, 729);
+            this.JData.BackColor = System.Drawing.Color.Teal;
+            this.JData.BaseColor = System.Drawing.Color.White;
+            this.JData.BorderColor = System.Drawing.Color.Silver;
+            this.JData.CustomFormat = null;
+            this.JData.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right;
+            this.JData.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.JData.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.JData.ForeColor = System.Drawing.Color.Black;
+            this.JData.Location = new System.Drawing.Point(145, 603);
+            this.JData.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
+            this.JData.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
+            this.JData.Name = "JData";
+            this.JData.OnHoverBaseColor = System.Drawing.Color.White;
+            this.JData.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.JData.OnHoverForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.JData.OnPressedColor = System.Drawing.Color.Black;
+            this.JData.Size = new System.Drawing.Size(240, 41);
+            this.JData.TabIndex = 28;
+            this.JData.Text = "Wednesday, January 25, 2023";
+            this.JData.Value = new System.DateTime(2023, 1, 25, 20, 6, 32, 729);
             // 
             // button1
             // 
@@ -463,7 +463,7 @@
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.gunaDateTimePicker2);
+            this.Controls.Add(this.JData);
             this.Controls.Add(this.DOBTb);
             this.Controls.Add(this.gunaDataGridView1);
             this.Controls.Add(this.DepCb);
@@ -519,7 +519,7 @@
         private System.ComponentModel.BackgroundWorker backgroundWorker2;
         private Guna.UI.WinForms.GunaDataGridView gunaDataGridView1;
         private Guna.UI.WinForms.GunaDateTimePicker DOBTb;
-        private Guna.UI.WinForms.GunaDateTimePicker gunaDateTimePicker2;
+        private Guna.UI.WinForms.GunaDateTimePicker JData;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label9;
