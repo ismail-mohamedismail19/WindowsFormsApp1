@@ -46,7 +46,7 @@
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.comboBox3 = new System.Windows.Forms.ComboBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.gunaDateTimePicker3 = new Guna.UI.WinForms.GunaDateTimePicker();
+            this.PeriodTb = new Guna.UI.WinForms.GunaDateTimePicker();
             this.label7 = new System.Windows.Forms.Label();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.label8 = new System.Windows.Forms.Label();
@@ -199,28 +199,28 @@
             this.textBox1.Size = new System.Drawing.Size(240, 30);
             this.textBox1.TabIndex = 52;
             // 
-            // gunaDateTimePicker3
+            // PeriodTb
             // 
-            this.gunaDateTimePicker3.BackColor = System.Drawing.Color.Teal;
-            this.gunaDateTimePicker3.BaseColor = System.Drawing.Color.White;
-            this.gunaDateTimePicker3.BorderColor = System.Drawing.Color.Silver;
-            this.gunaDateTimePicker3.CustomFormat = null;
-            this.gunaDateTimePicker3.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right;
-            this.gunaDateTimePicker3.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.gunaDateTimePicker3.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gunaDateTimePicker3.ForeColor = System.Drawing.Color.Black;
-            this.gunaDateTimePicker3.Location = new System.Drawing.Point(145, 445);
-            this.gunaDateTimePicker3.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
-            this.gunaDateTimePicker3.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
-            this.gunaDateTimePicker3.Name = "gunaDateTimePicker3";
-            this.gunaDateTimePicker3.OnHoverBaseColor = System.Drawing.Color.White;
-            this.gunaDateTimePicker3.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.gunaDateTimePicker3.OnHoverForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.gunaDateTimePicker3.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaDateTimePicker3.Size = new System.Drawing.Size(240, 41);
-            this.gunaDateTimePicker3.TabIndex = 53;
-            this.gunaDateTimePicker3.Text = "Wednesday, January 25, 2023";
-            this.gunaDateTimePicker3.Value = new System.DateTime(2023, 1, 25, 20, 6, 32, 729);
+            this.PeriodTb.BackColor = System.Drawing.Color.Teal;
+            this.PeriodTb.BaseColor = System.Drawing.Color.White;
+            this.PeriodTb.BorderColor = System.Drawing.Color.Silver;
+            this.PeriodTb.CustomFormat = null;
+            this.PeriodTb.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right;
+            this.PeriodTb.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.PeriodTb.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.PeriodTb.ForeColor = System.Drawing.Color.Black;
+            this.PeriodTb.Location = new System.Drawing.Point(145, 445);
+            this.PeriodTb.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
+            this.PeriodTb.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
+            this.PeriodTb.Name = "PeriodTb";
+            this.PeriodTb.OnHoverBaseColor = System.Drawing.Color.White;
+            this.PeriodTb.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.PeriodTb.OnHoverForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.PeriodTb.OnPressedColor = System.Drawing.Color.Black;
+            this.PeriodTb.Size = new System.Drawing.Size(240, 41);
+            this.PeriodTb.TabIndex = 53;
+            this.PeriodTb.Text = "Wednesday, January 25, 2023";
+            this.PeriodTb.Value = new System.DateTime(2023, 1, 25, 20, 6, 32, 729);
             // 
             // label7
             // 
@@ -416,7 +416,7 @@
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.gunaDateTimePicker3);
+            this.Controls.Add(this.PeriodTb);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.comboBox3);
             this.Controls.Add(this.UbdateBtn);
@@ -463,7 +463,7 @@
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private System.Windows.Forms.ComboBox comboBox3;
         private System.Windows.Forms.TextBox textBox1;
-        private Guna.UI.WinForms.GunaDateTimePicker gunaDateTimePicker3;
+        private Guna.UI.WinForms.GunaDateTimePicker PeriodTb;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.Label label8;
