@@ -156,9 +156,9 @@
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(114, 169);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(15, 17);
+            this.label4.Size = new System.Drawing.Size(91, 17);
             this.label4.TabIndex = 10;
-            this.label4.Text = "s";
+            this.label4.Text = "Emplotee MS";
             // 
             // Form1
             // 
