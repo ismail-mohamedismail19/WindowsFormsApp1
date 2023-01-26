@@ -57,7 +57,7 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.SalaryList = new Guna.UI.WinForms.GunaDataGridView();
             this.label10 = new System.Windows.Forms.Label();
-            this.nd = new System.Windows.Forms.TextBox();
+            this.AmountTb = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
@@ -379,14 +379,14 @@
             this.label10.TabIndex = 70;
             this.label10.Text = "Salary Amount";
             // 
-            // nd
+            // AmountTb
             // 
-            this.nd.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nd.Location = new System.Drawing.Point(145, 544);
-            this.nd.Name = "nd";
-            this.nd.Size = new System.Drawing.Size(240, 30);
-            this.nd.TabIndex = 71;
-            this.nd.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.AmountTb.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AmountTb.Location = new System.Drawing.Point(145, 544);
+            this.AmountTb.Name = "AmountTb";
+            this.AmountTb.Size = new System.Drawing.Size(240, 30);
+            this.AmountTb.TabIndex = 71;
+            this.AmountTb.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // salaries
             // 
@@ -394,7 +394,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1253, 844);
-            this.Controls.Add(this.nd);
+            this.Controls.Add(this.AmountTb);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.SalaryList);
             this.Controls.Add(this.label7);
@@ -463,6 +463,6 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private Guna.UI.WinForms.GunaDataGridView SalaryList;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox nd;
+        private System.Windows.Forms.TextBox AmountTb;
     }
 }
