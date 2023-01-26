@@ -57,7 +57,7 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.SalaryList = new Guna.UI.WinForms.GunaDataGridView();
             this.label10 = new System.Windows.Forms.Label();
-            this.gunaDateTimePicker1 = new Guna.UI.WinForms.GunaDateTimePicker();
+            this.SalaryTb = new Guna.UI.WinForms.GunaDateTimePicker();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
@@ -376,28 +376,28 @@
             this.label10.TabIndex = 70;
             this.label10.Text = "Salary Amount";
             // 
-            // gunaDateTimePicker1
+            // SalaryTb
             // 
-            this.gunaDateTimePicker1.BackColor = System.Drawing.Color.Teal;
-            this.gunaDateTimePicker1.BaseColor = System.Drawing.Color.White;
-            this.gunaDateTimePicker1.BorderColor = System.Drawing.Color.Silver;
-            this.gunaDateTimePicker1.CustomFormat = null;
-            this.gunaDateTimePicker1.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right;
-            this.gunaDateTimePicker1.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.gunaDateTimePicker1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gunaDateTimePicker1.ForeColor = System.Drawing.Color.Black;
-            this.gunaDateTimePicker1.Location = new System.Drawing.Point(145, 535);
-            this.gunaDateTimePicker1.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
-            this.gunaDateTimePicker1.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
-            this.gunaDateTimePicker1.Name = "gunaDateTimePicker1";
-            this.gunaDateTimePicker1.OnHoverBaseColor = System.Drawing.Color.White;
-            this.gunaDateTimePicker1.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.gunaDateTimePicker1.OnHoverForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.gunaDateTimePicker1.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaDateTimePicker1.Size = new System.Drawing.Size(240, 41);
-            this.gunaDateTimePicker1.TabIndex = 71;
-            this.gunaDateTimePicker1.Text = "Wednesday, January 25, 2023";
-            this.gunaDateTimePicker1.Value = new System.DateTime(2023, 1, 25, 20, 6, 32, 729);
+            this.SalaryTb.BackColor = System.Drawing.Color.Teal;
+            this.SalaryTb.BaseColor = System.Drawing.Color.White;
+            this.SalaryTb.BorderColor = System.Drawing.Color.Silver;
+            this.SalaryTb.CustomFormat = null;
+            this.SalaryTb.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right;
+            this.SalaryTb.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.SalaryTb.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.SalaryTb.ForeColor = System.Drawing.Color.Black;
+            this.SalaryTb.Location = new System.Drawing.Point(145, 535);
+            this.SalaryTb.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
+            this.SalaryTb.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
+            this.SalaryTb.Name = "SalaryTb";
+            this.SalaryTb.OnHoverBaseColor = System.Drawing.Color.White;
+            this.SalaryTb.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.SalaryTb.OnHoverForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.SalaryTb.OnPressedColor = System.Drawing.Color.Black;
+            this.SalaryTb.Size = new System.Drawing.Size(240, 41);
+            this.SalaryTb.TabIndex = 71;
+            this.SalaryTb.Text = "Wednesday, January 25, 2023";
+            this.SalaryTb.Value = new System.DateTime(2023, 1, 25, 20, 6, 32, 729);
             // 
             // salaries
             // 
@@ -405,7 +405,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1253, 844);
-            this.Controls.Add(this.gunaDateTimePicker1);
+            this.Controls.Add(this.SalaryTb);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.SalaryList);
             this.Controls.Add(this.label7);
@@ -474,6 +474,6 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private Guna.UI.WinForms.GunaDataGridView SalaryList;
         private System.Windows.Forms.Label label10;
-        private Guna.UI.WinForms.GunaDateTimePicker gunaDateTimePicker1;
+        private Guna.UI.WinForms.GunaDateTimePicker SalaryTb;
     }
 }
