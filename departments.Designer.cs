@@ -32,7 +32,7 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(departments));
-            this.button2 = new System.Windows.Forms.Button();
+            this.EditBtn = new System.Windows.Forms.Button();
             this.gunaDataGridView1 = new Guna.UI.WinForms.GunaDataGridView();
             this.backgroundWorker2 = new System.ComponentModel.BackgroundWorker();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
@@ -61,19 +61,19 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.SuspendLayout();
             // 
-            // button2
+            // EditBtn
             // 
-            this.button2.BackColor = System.Drawing.Color.PaleTurquoise;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.Black;
-            this.button2.Location = new System.Drawing.Point(274, 398);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(111, 45);
-            this.button2.TabIndex = 50;
-            this.button2.Text = "update";
-            this.button2.UseVisualStyleBackColor = false;
+            this.EditBtn.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.EditBtn.FlatAppearance.BorderSize = 0;
+            this.EditBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.EditBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.EditBtn.ForeColor = System.Drawing.Color.Black;
+            this.EditBtn.Location = new System.Drawing.Point(274, 398);
+            this.EditBtn.Name = "EditBtn";
+            this.EditBtn.Size = new System.Drawing.Size(111, 45);
+            this.EditBtn.TabIndex = 50;
+            this.EditBtn.Text = "update";
+            this.EditBtn.UseVisualStyleBackColor = false;
             // 
             // gunaDataGridView1
             // 
@@ -334,7 +334,7 @@
             this.Controls.Add(this.label5);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.EditBtn);
             this.Controls.Add(this.gunaDataGridView1);
             this.Controls.Add(this.AddBtn);
             this.Controls.Add(this.pictureBox1);
@@ -364,7 +364,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button EditBtn;
         private Guna.UI.WinForms.GunaDataGridView gunaDataGridView1;
         private System.ComponentModel.BackgroundWorker backgroundWorker2;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
