@@ -35,7 +35,9 @@ namespace WindowsFormsApp1
 
         private void label5_Click(object sender, EventArgs e)
         {
-
+            employees obj = new employees();
+            obj.Show();
+            this.Hide();    
         }
 
         private void departments_Load(object sender, EventArgs e)
