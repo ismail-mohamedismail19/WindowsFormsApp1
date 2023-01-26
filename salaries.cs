@@ -39,8 +39,19 @@ namespace WindowsFormsApp1
             {
                 DSal = Convert.ToInt32(Con.GetData(Query).Columns["EmpSal"].ToString());
             }
-           // MessageBox.Show("" + DSal);
-        
+            // MessageBox.Show("" + DSal);
+            if (DaysTb.Text == "")
+            {
+                AmountTb.Text = "Rs" + (d * DSal);
+            }else if (Convert.ToInt32(DaysTb.Text) > 31)
+            {
+                MessageBox.Show("Days can not Be Greater Then 31")
+            }
+            else
+            {
+                d=Convert.ToInt32(DaysTb.Text);
+                AmountTb.Text = "Rs"+(d*DSal);
+            }
 
         }
         private void ShowSalaries()
@@ -70,7 +81,7 @@ namespace WindowsFormsApp1
         {
 
         }
-
+        int d = 1;
         private void AddBtn_Click(object sender, EventArgs e)
         {
             try
@@ -84,7 +95,7 @@ namespace WindowsFormsApp1
                     Period = PeriodTb.Value.Date.Month.ToString() + "-" + PeriodTb.Value.Date.Year.ToString();
                     int Amount = DSal * Convert.ToInt32(DaysTb.Text);
                     int Days = Convert.ToInt32(DaysTb.Text);
-                    string Query = "insert into SalaryTb1 values({0},{1},{2},'{3}',{4},'{5}')";
+                    string Query = "insert into SalaryTb1 values({0},{1},'{2}',{3},'{4}')";
                     Query = string.Format(Query, EmpCb.SelectedValue.ToString(), Days, Period, Amount, DateTime.Today.Date);
                     Con.SetData(Query);
                     ShowSalaries();
