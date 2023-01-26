@@ -51,7 +51,7 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.label7 = new System.Windows.Forms.Label();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.label8 = new System.Windows.Forms.Label();
+            this.salarylbl = new System.Windows.Forms.Label();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.DeleteBtn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.DepList)).BeginInit();
@@ -301,17 +301,17 @@
             this.pictureBox4.TabStop = false;
             this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
-            // label8
+            // salarylbl
             // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.Color.Teal;
-            this.label8.Location = new System.Drawing.Point(903, 164);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(64, 25);
-            this.label8.TabIndex = 58;
-            this.label8.Text = "salary";
-            this.label8.Click += new System.EventHandler(this.label8_Click);
+            this.salarylbl.AutoSize = true;
+            this.salarylbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.salarylbl.ForeColor = System.Drawing.Color.Teal;
+            this.salarylbl.Location = new System.Drawing.Point(903, 164);
+            this.salarylbl.Name = "salarylbl";
+            this.salarylbl.Size = new System.Drawing.Size(64, 25);
+            this.salarylbl.TabIndex = 58;
+            this.salarylbl.Text = "salary";
+            this.salarylbl.Click += new System.EventHandler(this.label8_Click);
             // 
             // pictureBox5
             // 
@@ -347,7 +347,7 @@
             this.Controls.Add(this.DeleteBtn);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.label8);
+            this.Controls.Add(this.salarylbl);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.pictureBox3);
@@ -403,7 +403,7 @@
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label salarylbl;
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.Button DeleteBtn;
     }

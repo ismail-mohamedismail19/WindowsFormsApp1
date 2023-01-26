@@ -47,7 +47,9 @@ namespace WindowsFormsApp1
 
         private void label8_Click(object sender, EventArgs e)
         {
-
+            salaries obj = new salaries();  
+            obj.Show();     
+            this.Hide();
         }
 
         private void pictureBox4_Click(object sender, EventArgs e)
