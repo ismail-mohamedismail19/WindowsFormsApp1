@@ -116,7 +116,7 @@ namespace WindowsFormsApp1
             }
         }
 
-        private void DeleteBtn_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
             try
             {
@@ -142,4 +142,4 @@ namespace WindowsFormsApp1
         }
     }
     }
-}
+
