@@ -37,7 +37,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.LoginBtn = new System.Windows.Forms.Button();
-            this.label4 = new System.Windows.Forms.Label();
+            this.ResetLbl = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -124,16 +124,16 @@
             this.LoginBtn.Text = "login";
             this.LoginBtn.UseVisualStyleBackColor = true;
             // 
-            // label4
+            // ResetLbl
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.Teal;
-            this.label4.Location = new System.Drawing.Point(510, 394);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(55, 25);
-            this.label4.TabIndex = 8;
-            this.label4.Text = "reset";
+            this.ResetLbl.AutoSize = true;
+            this.ResetLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ResetLbl.ForeColor = System.Drawing.Color.Teal;
+            this.ResetLbl.Location = new System.Drawing.Point(510, 394);
+            this.ResetLbl.Name = "ResetLbl";
+            this.ResetLbl.Size = new System.Drawing.Size(55, 25);
+            this.ResetLbl.TabIndex = 8;
+            this.ResetLbl.Text = "reset";
             // 
             // pictureBox2
             // 
@@ -152,7 +152,7 @@
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(823, 545);
             this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.label4);
+            this.Controls.Add(this.ResetLbl);
             this.Controls.Add(this.LoginBtn);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label1);
@@ -183,7 +183,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button LoginBtn;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label ResetLbl;
         private System.Windows.Forms.PictureBox pictureBox2;
     }
 }
