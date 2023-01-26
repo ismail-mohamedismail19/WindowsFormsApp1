@@ -17,12 +17,14 @@ namespace WindowsFormsApp1
         public departments()
         {
             InitializeComponent();
-            Con= new Functions();
+            Con = new Functions();
             ShowDepartments();
         }
+
         private void ShowDepartments()
         {
-            string Query = "Select * from DepartmentTb1";
+
+            string Query = "Select * From DepartmentTb1";
             DepList.DataSource = Con.GetData(Query);
         }
         private void label4_Click(object sender, EventArgs e)
@@ -57,22 +59,22 @@ namespace WindowsFormsApp1
                 if (DepNameTb.Text == "")
                 {
                     MessageBox.Show("Missing Data!!!");
-                }else
+                }
+                else
                 {
                     string Dep = DepNameTb.Text;
                     string Query = "insert into DepartmentTb1 values('{0}')";
-                    Query = string.Format(DepNameTb.Text);
+                    Query = string.Format(Query,DepNameTb.Text);
                     Con.SetData(Query);
                     ShowDepartments();
                     MessageBox.Show("Depatment Added!!!");
                     DepNameTb.Text = "";
                 }
             }
-            catch(Exception Ex)
+            catch (Exception Ex)
             {
                 MessageBox.Show(Ex.Message);
             }
-
         }
     }
 }
