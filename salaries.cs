@@ -43,9 +43,10 @@ namespace WindowsFormsApp1
             if (DaysTb.Text == "")
             {
                 AmountTb.Text = "Rs" + (d * DSal);
-            }else if (Convert.ToInt32(DaysTb.Text) > 31)
+            }
+            else if (Convert.ToInt32(DaysTb.Text) > 31)
             {
-                MessageBox.Show("Days can not Be Greater Then 31")
+                MessageBox.Show("Days can not Be Greater Then 31");
             }
             else
             {
@@ -118,6 +119,13 @@ namespace WindowsFormsApp1
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void LogoutLbl_Click(object sender, EventArgs e)
+        {
+            Login Obj = new Login();
+            Obj.Show();
+            this.Hide();
         }
     }
 }
