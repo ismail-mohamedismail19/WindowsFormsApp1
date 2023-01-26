@@ -45,7 +45,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.DaysTb = new System.Windows.Forms.TextBox();
             this.PeriodTb = new Guna.UI.WinForms.GunaDateTimePicker();
             this.label7 = new System.Windows.Forms.Label();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
@@ -191,13 +191,13 @@
             this.comboBox3.Size = new System.Drawing.Size(240, 33);
             this.comboBox3.TabIndex = 51;
             // 
-            // textBox1
+            // DaysTb
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(145, 363);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(240, 30);
-            this.textBox1.TabIndex = 52;
+            this.DaysTb.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DaysTb.Location = new System.Drawing.Point(145, 363);
+            this.DaysTb.Name = "DaysTb";
+            this.DaysTb.Size = new System.Drawing.Size(240, 30);
+            this.DaysTb.TabIndex = 52;
             // 
             // PeriodTb
             // 
@@ -417,7 +417,7 @@
             this.Controls.Add(this.label9);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.PeriodTb);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.DaysTb);
             this.Controls.Add(this.comboBox3);
             this.Controls.Add(this.UbdateBtn);
             this.Controls.Add(this.AddBtn);
@@ -462,7 +462,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private System.Windows.Forms.ComboBox comboBox3;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox DaysTb;
         private Guna.UI.WinForms.GunaDateTimePicker PeriodTb;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.PictureBox pictureBox4;
