@@ -32,7 +32,7 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            this.button2 = new System.Windows.Forms.Button();
+            this.UbdateBtn = new System.Windows.Forms.Button();
             this.backgroundWorker2 = new System.ComponentModel.BackgroundWorker();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.AddBtn = new System.Windows.Forms.Button();
@@ -66,19 +66,19 @@
             ((System.ComponentModel.ISupportInitialize)(this.SalaryList)).BeginInit();
             this.SuspendLayout();
             // 
-            // button2
+            // UbdateBtn
             // 
-            this.button2.BackColor = System.Drawing.Color.PaleTurquoise;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.Black;
-            this.button2.Location = new System.Drawing.Point(274, 616);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(111, 45);
-            this.button2.TabIndex = 50;
-            this.button2.Text = "update";
-            this.button2.UseVisualStyleBackColor = false;
+            this.UbdateBtn.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.UbdateBtn.FlatAppearance.BorderSize = 0;
+            this.UbdateBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.UbdateBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.UbdateBtn.ForeColor = System.Drawing.Color.Black;
+            this.UbdateBtn.Location = new System.Drawing.Point(274, 616);
+            this.UbdateBtn.Name = "UbdateBtn";
+            this.UbdateBtn.Size = new System.Drawing.Size(111, 45);
+            this.UbdateBtn.TabIndex = 50;
+            this.UbdateBtn.Text = "update";
+            this.UbdateBtn.UseVisualStyleBackColor = false;
             // 
             // AddBtn
             // 
@@ -419,7 +419,7 @@
             this.Controls.Add(this.gunaDateTimePicker3);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.comboBox3);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.UbdateBtn);
             this.Controls.Add(this.AddBtn);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.flowLayoutPanel2);
@@ -449,7 +449,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button UbdateBtn;
         private System.ComponentModel.BackgroundWorker backgroundWorker2;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private System.Windows.Forms.Button AddBtn;
